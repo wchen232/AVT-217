@@ -26,9 +26,25 @@ body {
   background-color: deeppink;
 }
 
+/* Pattern 2 */
+.tile4, .tile5, .tile6{
+  width: 100px;
+  height: 100px;
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
+
 .tile4{
-  border-radius:100%;
   /* for circles */
-  transform: rotate(45deg);
+  border-radius:100%;
+  background-color: deeppink;
+}
+
+.tile5{
+  width: 100px;
+  height: 50px;
+  background-color: skyblue;
   /* rotation */
+  transform: rotate(45deg);
 }
