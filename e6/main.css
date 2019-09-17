@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+#container{
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3{
+  width: 100px;
+  height: 100px;
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
+.tile1 {
+  background-color: limegreen;
+}
+.tile2 {
+  background-color: rebeccapurple;
+}
+.tile3{
+  background-color: deeppink;
+}
+
+.tile4{
+  border-radius:100%;
+  /* for circles */
+  transform: rotate(45deg);
+  /* rotation */
+}
