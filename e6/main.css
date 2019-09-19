@@ -36,15 +36,23 @@ body {
 }
 
 .tile4{
-  /* for circles */
+  width: 100px;
+  height: 50px;
+  background-color: skyblue;
+  /* rotation */
+  transform: rotate(45deg);/* for circles */
+
+}
+
+.tile5{
   border-radius:100%;
   background-color: deeppink;
 }
 
-.tile5{
+.tile6{
   width: 100px;
   height: 50px;
-  background-color: skyblue;
+  background-color: red;
   /* rotation */
   transform: rotate(45deg);
 }
