@@ -1,4 +1,5 @@
 body {
+  /* background-color: darkblue; */
   margin: 0;
   overflow-x: hidden;
 }
@@ -46,13 +47,176 @@ body {
 
 .tile5{
   border-radius:100%;
-  background-color: deeppink;
+  background-color: violet;
 }
 
 .tile6{
   width: 100px;
   height: 50px;
   background-color: red;
-  /* rotation */
   transform: rotate(45deg);
+}
+
+/* Pattern 3 */
+.tile7, .tile8, .tile9{
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
+
+.tile7{
+  width: 100px;
+  height: 100px;
+  border-radius:100%;
+  background-color: red;
+}
+
+.tile8{
+  width: 75px;
+  height: 75px;
+  border-radius:100%;
+  background-color: green;
+}
+
+.tile9{
+  width: 50px;
+  height: 50px;
+  border-radius:100%;
+  background-color: blue;
+}
+
+/* Pattern 4 */
+.tile10, .tile11, .tile12{
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
+
+.tile10{
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  transform: rotate(45deg);
+}
+
+.tile11{
+  width: 200px;
+  height: 70px;
+  background-color: blue;
+  transform: rotate(135deg);
+}
+
+.tile12{
+  width: 300px;
+  height: 100px;
+  background-color: green;
+  transform: rotate(225deg);
+}
+
+/* Pattern 5 */
+
+.tile13 {
+
+}
+
+.tile14{
+  float: left;
+  width: 100;
+  height: 100;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.tile15{
+
+}
+
+#hexagon1 {
+   width: 100px;
+   height: 55px;
+   background: red;
+   position: relative;
+   float: left;
+}
+#hexagon1:before {
+   content: "";
+   position: absolute;
+   top: -25px;
+   left: 0;
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 25px solid red;
+}
+#hexagon1:after {
+   content: "";
+   position: absolute;
+   bottom: -25px;
+   left: 0;
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-top: 25px solid red;
+}
+
+#hexagon2 {
+   width: 100px;
+   height: 55px;
+   background: forestgreen;
+   position: relative;
+   float: left;
+}
+#hexagon2:before {
+   content: "";
+   position: absolute;
+   top: -25px;
+   left: 0;
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 25px solid forestgreen;
+}
+#hexagon2:after {
+   content: "";
+   position: absolute;
+   bottom: -25px;
+   left: 0;
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-top: 25px solid forestgreen;
+}
+
+#hexagon3 {
+   width: 100px;
+   height: 55px;
+   background: darkblue;
+   position: relative;
+   float: left;
+}
+#hexagon3:before {
+   content: "";
+   position: absolute;
+   top: -25px;
+   left: 0;
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 25px solid darkblue;
+}
+#hexagon3:after {
+   content: "";
+   position: absolute;
+   bottom: -25px;
+   left: 0;
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-top: 25px solid darkblue;
 }
