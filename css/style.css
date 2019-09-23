@@ -14,7 +14,7 @@ a {
 }
 
 a:visited{
-  color: yellow;
+  /* color: yellow; */
 }
 
 a:hover{
