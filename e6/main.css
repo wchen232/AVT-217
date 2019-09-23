@@ -1,5 +1,5 @@
 body {
-  /* background-color: darkblue; */
+  /* background-color: #FFFACD; */
   margin: 0;
   overflow-x: hidden;
 }
@@ -134,7 +134,7 @@ body {
 #hexagon1 {
    width: 100px;
    height: 55px;
-   background: red;
+   background: #FF00FF;
    position: relative;
    float: left;
 }
@@ -147,7 +147,7 @@ body {
    height: 0;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   border-bottom: 25px solid red;
+   border-bottom: 25px solid #FF00FF;
 }
 #hexagon1:after {
    content: "";
@@ -158,13 +158,13 @@ body {
    height: 0;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   border-top: 25px solid red;
+   border-top: 25px solid #FF00FF;
 }
 
 #hexagon2 {
    width: 100px;
    height: 55px;
-   background: forestgreen;
+   background: #AFEEEE;
    position: relative;
    float: left;
 }
@@ -177,7 +177,7 @@ body {
    height: 0;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   border-bottom: 25px solid forestgreen;
+   border-bottom: 25px solid #AFEEEE;
 }
 #hexagon2:after {
    content: "";
@@ -188,13 +188,13 @@ body {
    height: 0;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   border-top: 25px solid forestgreen;
+   border-top: 25px solid #AFEEEE;
 }
 
 #hexagon3 {
    width: 100px;
    height: 55px;
-   background: darkblue;
+   background: #FFFACD;
    position: relative;
    float: left;
 }
@@ -207,7 +207,7 @@ body {
    height: 0;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   border-bottom: 25px solid darkblue;
+   border-bottom: 25px solid #FFFACD;
 }
 #hexagon3:after {
    content: "";
@@ -218,5 +218,5 @@ body {
    height: 0;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   border-top: 25px solid darkblue;
+   border-top: 25px solid #FFFACD;
 }
