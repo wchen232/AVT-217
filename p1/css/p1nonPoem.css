@@ -1,8 +1,9 @@
 body {
   background-color: #222C89;
   color: #FDFDFD;
-  font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-size: 60;
 }
 
 a{
