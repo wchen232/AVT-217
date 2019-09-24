@@ -4,19 +4,22 @@ body {
 }
 
 #board{
+  /* width: 80%; */
   width: 800px;
 }
 
-.red{
+.red,.white{
+  /* width: 10%; */
+  /* height: 10%; */
   width: 100px;
   height: 100px;
   float: left;
-  background-color: brown;
+}
+
+.red{
+  background-color: maroon;
 }
 
 .white{
-  width: 100px;
-  height: 100px;
-  float:left;
   background-color: beige;
 }
