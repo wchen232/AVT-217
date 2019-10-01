@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   /* background-color: #FFFACD; */
   background-color: #444444;
@@ -74,6 +78,7 @@ body {
 .blogImg{
   width: 650px;
   height: 500px;
+  /*      top right bottom left */
   margin: 100px 10px 10px 0px;
   float:left;
   background-color: crimson;
@@ -96,45 +101,47 @@ body {
 
 /* Tennis court */
 
-.middleTop{
+#court{
+  width: 600px;
+  margin: 50px auto;
+  background-color: darkgreen;
+}
+
+.center{
+  width:400px;
   float:left;
-  background-color: crimson;
-  width:600px;
+}
+
+.back, .middle, .side{
+  float:left;
+  border: 10px solid white;
+}
+
+.back{
+  width:400px;
   height:100px;
-  margin: 0px 10px 10px 0px;
 }
 
-.square{
-  background-color: crimson;
-  float:left;
-  width: 295px;
-  height: 295px;
-  /* top right bottom left */
-  margin: 0px 10px 10px 0px;
+.middle{
+  width: 200px;
+  height: 300px;
 }
 
-.strip1{
-  background-color: crimson;
-  width: 90px;
-  height: 405px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  float:left;
-}
-.strip2{
-  background-color: crimson;
-  width: 90px;
-  height: 405px;
-  float:left;
-  margin-bottom: 10px;
-  margin-top: -110px;
+.side{
+  width: 100px;
+  height: 400px;
 }
 
-.strip3{
-  background-color: crimson;
-  width: 90px;
-  height: 405px;
-  float:left;
-  margin-bottom: 10px;
-  margin-top: -305px;
+
+/* Clear Fix to allow bg color for court*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
