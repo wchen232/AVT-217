@@ -175,27 +175,28 @@ body {
   float:left;
   border: 5px solid white;
 }
-
+/* onetwo */
 .rect1{
   width: 100px;
   height: 200px;
 }
-
+/* twoone */
 .rect2{
   width: 200px;
   height: 100px;
 }
-
+/* onefour */
 .rect3{
   width: 100px;
   height: 400px;
 }
-
+/* twofour */
 .rect4{
   width: 200px;
   height: 400px;
 }
 
+/* oneone */
 .square{
   width: 100px;
   height: 100px;
