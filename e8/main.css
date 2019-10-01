@@ -4,7 +4,7 @@
 
 body {
   /* background-color: #FFFACD; */
-  background-color: #444444;
+  background-color: whitesmoke;
 }
 
 #board{
@@ -144,4 +144,53 @@ body {
 }
 .group {
   zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* California Case */
+#case{
+  width: 400px;
+  margin: 50px auto;
+  background-color: crimson;
+}
+
+.topRight{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.botLeft{
+  width: 100px;
+  height: 400px;
+  float: left;
+}
+
+.rect1, .rect2, .rect3, .rect4, .square{
+  float:left;
+  border: 5px solid white;
+}
+
+.rect1{
+  width: 100px;
+  height: 200px;
+}
+
+.rect2{
+  width: 200px;
+  height: 100px;
+}
+
+.rect3{
+  width: 100px;
+  height: 400px;
+}
+
+.rect4{
+  width: 200px;
+  height: 400px;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
 }
