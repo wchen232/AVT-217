@@ -1,15 +1,42 @@
 #container{
   width: 100%;
-  margin: 0px auto;
+  background-color: #48475C;
+  margin: -10px;
+  padding: 30px 30px;
 }
 
 #left{
-  width: 500px;
+  width: 400px;
   float:left;
 }
 
 #right{
-  float:left;
   width: 200px;
-  transform: scale(0.25);
+  float:left;
+  margin: 30px;
+}
+
+/* Clear Fix to allow bg color for court*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+h1, h2, h3, h4{
+  font-family: 'Roboto Slab', serif;
+}
+
+h4{
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Roboto Condensed', sans-serif;
 }

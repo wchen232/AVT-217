@@ -1,4 +1,74 @@
 #container{
   width: 100%;
   margin: 0px auto;
+  background-color: #666587;
+}
+
+#top{
+  background: url(wotw5.jpeg);
+  background-size: 100%;
+  background-position: 0 -200px;
+  width: 100%;
+  height: 250px;
+  margin:0;
+  padding: 50px 0;
+}
+
+img{
+  position: absolute;
+  top: -100px
+}
+
+#gray{
+  margin: -150px 0 10px 0;
+  width: 100%;
+  color: #D3D3D3;
+  padding: 10px 20px;
+}
+
+#text{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title1{
+  color: whitesmoke;
+  width: 250px;
+  margin:auto;
+  margin-right: 50px;
+  text-align: right;
+  float:right;
+  font-size: 1.25em;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Audiowide', cursive;
+}
+
+h3{
+  margin-top: 10px;
+  font-size: 1.33em;
+}
+
+h4{
+  margin: 75px 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
