@@ -1,0 +1,86 @@
+body {
+  background-color: white;
+  font-family: 'Rufina', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  background-color: #5B5774;
+  color: #CCCCD0;
+  text-align: left;
+}
+
+#container{
+  width: 1020px;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 1.25em;
+  font-size: 1.25em
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-family: 'Rufina', serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #A88FB2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {font-size: 3.157em;}
+
+h3 {font-size: 2.369em;}
+
+h4 {font-size: 1.777em;}
+
+h5 {font-size: 1.333em;}
+
+.intro {
+}
+
+ul{
+  text-align: left;
+}
+
+.special{
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1440px){
+  #container{
+    width: 720px;
+  }
+  p {
+    font-size: 1.15em;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  #container{
+    width: 550px;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  h1 {
+    font-size: 3.157em;
+  }
+  h2 {font-size: 2.369em;}
+
+  h3 {font-size: 1.777em;}
+
+  h4 {font-size: 1.333em;}
+
+  p {
+    font-size: 1em;
+  }
+  
+  #container{
+    width: 420px;
+  }
+}
