@@ -13,22 +13,135 @@ body {
 }
 
 #img1{
+  width: 1440px;
+  height: 800px;
+  margin-left: -7%;
+  display: block;
+  position: relative;
+}
+
+#img1::after {
+  content: "";
   background: url(img/journobanner.png);
-  background-size: 105%;
-  background-position: 0 0;
-  backface-visibility: 0.25;
-  width: 100%;
-  height: 100%;
-  margin:0;
-  padding: 50px 0;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#img2{
+  width: 1440px;
+  height: 400px;
+  margin-left: -7%;
+  display: block;
+  position: relative;
+}
+
+#img2::after {
+  content: "";
+  background: url(img/twoviews.png);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#img3{
+  width: 1440px;
+  height: 400px;
+  margin-left: -7%;
+  display: block;
+  position: relative;
+}
+
+#img3::after {
+  content: "";
+  background: url(img/TooMuchWater.png);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#img4{
+  width: 1440px;
+  height: 400px;
+  margin-left: -7%;
+  display: block;
+  position: relative;
+}
+
+#img4::after {
+  content: "";
+  background: url(img/whatisaman.png);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#img5{
+  width: 1440px;
+  height: 400px;
+  margin-left: -7%;
+  display: block;
+  position: relative;
+}
+
+#img5::after {
+  content: "";
+  background: url(img/journalist.png);
+  background-position: 0 -180px;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#img6{
+  width: 1440px;
+  height: 400px;
+  margin-left: -7%;
+  display: block;
+  position: relative;
+}
+
+#img6::after {
+  content: "";
+  background: url(img/ps5.png);
+  background-position: 0 -210px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .heading{
-  width: 90%;
+  width: 80%;
+  margin: 0 auto;
+
 }
 
 .textbox{
-  width: 1080px:
+  width: 1080px;
+  margin: 100px auto;
 }
 
 p {
@@ -84,16 +197,39 @@ ul{
   p {
     font-size: 1.15em;
   }
+  #img1{
+  }
+
+  #img1::after {
+  }
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 1024px){
   .textbox{
     width: 550px;
   }
 }
 
+@media only screen and (max-width: 768px){
+  h1 {
+    font-size: 3.157em;
+  }
+  h2 {font-size: 2.369em;}
 
-@media only screen and (max-width: 600px){
+  h3 {font-size: 1.777em;}
+
+  h4 {font-size: 1.333em;}
+
+  p {
+    font-size: 1em;
+  }
+
+  .textbox{
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 320px){
   h1 {
     font-size: 3.157em;
   }
