@@ -1,0 +1,8 @@
+body{
+  background-color: darkorange;
+}
+#container{
+  width: 100%;
+  margin: 0 auto;
+  background-color: orange;
+}
