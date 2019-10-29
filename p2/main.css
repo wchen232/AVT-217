@@ -58,14 +58,14 @@ body {
 
 #img3{
   width: 110%;
-  margin-left: -2.5%;
+  margin-left: -10%;
   padding: 150px 0px;
   position: relative;
 }
 
 #img3::after {
   content: "";
-  background: url(img/TooMuchWater.png) no-repeat center;
+  background: url(img/TooMuchWater.png) no-repeat;
   background-size: 105%;
   opacity: 0.5;
   top: 0;
@@ -107,7 +107,7 @@ body {
   content: "";
   background: url(img/journalist.png) no-repeat center;
   /* background-position: 0 -180px; */
-  background-size: 105%;
+  background-size: 110%;
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -127,7 +127,7 @@ body {
 #img6::after {
   content: "";
   background: url(img/ps5.png) no-repeat center;
-  background-position: 0 49%;
+  background-position: 0 51%;
   background-size: 105%;
   top: 0;
   left: 0;
@@ -194,54 +194,69 @@ ul{
 }
 
 @media only screen and (max-width: 1440px){
-  .textbox{
-    width: 720px;
-  }
-  p {
-    font-size: 1.15em;
-  }
+  .textbox{width: 720px;}
+  p {font-size: 1.15em;}
+  #img1{padding: 15% 0;}
+  #img2{padding: 15% 0;}
+  #img3{padding: 15% 0;}
+  #img4{padding: 15% 0;}
+  #img5{padding: 15% 0;}
+  #img6{padding: 10% 0;}
 }
 
-@media only screen and (max-width: 1070px){
-  .textbox{}
+@media only screen and (max-width: 1024px){
+  .textbox{width: 600px;}
+  h1 {font-size: 3.157em;}
+  h2 {font-size: 2.369em;}
+  h3 {font-size: 1.777em;}
+  h4 {font-size: 1.333em;}
+  p {font-size: 1em;}
+  #img1{padding: 150px 0;}
+  #img2{padding: 125px 0;}
+  #img3{padding: 125px 0;}
+  #img4{padding: 125px 0;}
+  #img5{padding: 125px 0;}
+  #img6{padding: 100px 0;}
+  #img1{padding: 15% 0;}
+  #img2{padding: 15% 0;}
+  #img3{padding: 15% 0;}
+  #img4{padding: 15% 0;}
+  #img5{padding: 15% 0;}
+  #img6{padding: 10% 0;}
 }
 
 
 
 @media only screen and (max-width: 768px){
-  h1 {
-    font-size: 3.157em;
-  }
-  h2 {font-size: 2.369em;}
-
+  h1 {font-size: 1.889em;}
+  h2 {font-size: 1.789em;}
   h3 {font-size: 1.777em;}
-
   h4 {font-size: 1.333em;}
-
-  p {
-    font-size: 1em;
+  p {font-size: 1em;}
+  #img1{padding: 15% 0;}
+  #img2{padding: 15% 0;}
+  #img3{padding: 15% 0;}
+  #img4{padding: 15% 0;}
+  #img5{padding: 15% 0;}
+  #img6{padding: 10% 0;}
+  .heading{
+    width: 65%;
+    margin: 0 auto;
   }
-
-  .textbox{
-    width: 420px;
-  }
+  .textbox{width: 320px;}
 }
 
 @media only screen and (max-width: 320px){
-  h1 {
-    font-size: 3.157em;
-  }
-  h2 {font-size: 2.369em;}
-
-  h3 {font-size: 1.777em;}
-
-  h4 {font-size: 1.333em;}
-
-  p {
-    font-size: 1em;
-  }
-
-  .textbox{
-    width: 420px;
-  }
+  h1 {font-size: 1em;}
+  h2 {font-size: 0.8em;}
+  h3 {font-size: 0.75em;}
+  h4 {font-size: 1em;}
+  p {font-size: 0.7em;}
+  /* #img1{padding: 75px 0;} */
+  /* #img2{padding: 50px 0;} */
+  /* #img3{padding: 50px 0;} */
+  /* #img4{padding: 50px 0;} */
+  /* #img5{padding: 50px 0;} */
+  /* #img6{padding: 50px 0;} */
+  .textbox{width: 90%;}
 }
