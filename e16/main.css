@@ -4,5 +4,8 @@ body{
 #container{
   width: 100%;
   margin: 0 auto;
-  background-color: orange;
 }
+
+/* Position: fixed scrolls with page */
+/* Postion: relative is based on where it would be drawn without other positioning*/
+/* Position: absolute is based on the page */
