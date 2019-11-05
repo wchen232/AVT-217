@@ -223,10 +223,10 @@ ul{
   h4 {font-size: 1.333em;}
   p {font-size: 0.9em;}
   .heading{
-    width: 65%;
+    width: 90%;
     margin: 0 auto;
   }
-  .textbox{width: 320px;}
+  .textbox{width: 315px;}
   #img1{padding: 15% 0;}
   #img2{padding: 4% 0;}
   #img3{padding: 4% 0;}
@@ -235,11 +235,13 @@ ul{
   #img6{padding: 4% 0;}
 }
 
-@media only screen and (max-width: 320px){
-  h1 {font-size: 1em;}
-  h2 {font-size: 0.8em;}
-  h3 {font-size: 0.75em;}
-  h4 {font-size: 1em;}
-  p {font-size: 0.7em;}
-  .textbox{width: 90%;}
+
+
+@media only screen and (max-width: 350px){
+  h1 {font-size: 1.6em;}
+  h2 {font-size: 1.3em;}
+  h3 {font-size: 1.35em;}
+  h4 {font-size: 1.35em;}
+  p {font-size: 0.8em;}
+  .textbox{max-width: 300px;}
 }
