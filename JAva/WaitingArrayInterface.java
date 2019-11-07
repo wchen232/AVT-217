@@ -1,9 +1,9 @@
-public interface WaitingArrayInterface{
-  void add(element);
-  remove() throws EmptyWaitingArrayException;
-  void clear() throws EmptyWaitingArrayException;
-  getFirst() throws EmptyWaitingArrayException;
-  getLast() throws EmptyWaitingArrayException;
+public interface WaitingArrayInterface <G>{
+  public void add(G element);
+  public G remove() throws EmptyWaitingArrayException;
+  public void clear() throws EmptyWaitingArrayException;
+  public G getFirst() throws EmptyWaitingArrayException;
+  public G getLast() throws EmptyWaitingArrayException;
   public boolean isEmpty();
   public boolean isFull();
   public String toString();

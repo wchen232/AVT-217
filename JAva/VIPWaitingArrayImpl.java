@@ -14,7 +14,7 @@ public class VIPWaitingArrayImpl extends Parent implements Interface {
   private void resizeCapacity(){
 
   }
-  
+
   @Override public String toString(){
 
   }
