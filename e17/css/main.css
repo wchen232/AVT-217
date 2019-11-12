@@ -1,0 +1,125 @@
+html{
+  font-size: 16px;
+  transition: all 3s ease;
+}
+body{
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  background-color: whitesmoke;
+}
+
+.title{
+   width: 100vw;
+   background-color: darkred;
+   padding: 36vh 0;
+}
+
+.transparency{
+  text-transform: lowercase;
+  opacity: 25%;
+}
+
+.Macaroni{
+   width: 100vw;
+   /* background-image: url(../img/macaroni1.jpg); */
+   background-size: 100%;
+   background-color: Gold;
+   padding: 33vh 0;
+}
+
+.Macaroni2{
+  width: 100vw;
+  /* background-color: none; */
+  padding: 33vh 0;
+  background-image: url(../img/macaroni2.jpeg);
+  background-size: 100%;
+  text-transform: lowercase;
+  /* background-position: 0 -200px; */
+  /* text-transform: lowercase; */
+}
+
+.Lasagne{
+   width: 100vw;
+   /* background-image: url(../img/macaroni1.jpg); */
+   background-size: 100%;
+   background-color: #FFF4A6;
+   padding: 33vh 0;
+}
+
+.Lasagne2{
+  width: 100vw;
+  /* background-color: none; */
+  padding: 33vh 0;
+  background-image: url(../img/lasagna.jpg);
+  background-size: 100%;
+  text-transform: lowercase;
+  /* background-position: 0 -200px; */
+  /* text-transform: lowercase; */
+}
+
+.Spaghetti{
+   width: 100vw;
+   /* background-image: url(../img/macaroni1.jpg); */
+   background-size: 100%;
+   background-color: #F0E68C;
+   padding: 33vh 0;
+}
+
+.Spaghetti2{
+  width: 100vw;
+  /* background-color: none; */
+  padding: 33vh 0;
+  background-image: url(../img/spaghetti.jpg);
+  background-size: 100%;
+  text-transform: lowercase;
+  /* background-position: 0 -200px; */
+  /* text-transform: lowercase; */
+}
+
+.Fettuccini{
+   width: 100vw;
+   /* background-image: url(../img/macaroni1.jpg); */
+   background-size: 100%;
+   background-color: #FFFFE0;
+   padding: 33vh 0;
+}
+
+.Fettuccini2{
+  width: 100vw;
+  /* background-color: none; */
+  padding: 33vh 0;
+  background-image: url(../img/fettuccini.jpg);
+  background-size: 100%;
+  text-transform: lowercase;
+  /* background-position: 0 -200px; */
+  /* text-transform: lowercase; */
+}
+
+.Puhskinti{
+   width: 100vw;
+   /* background-image: url(../img/macaroni1.jpg); */
+   background-size: 100%;
+   background-color: darkred;
+   padding: 33vh 0;
+}
+
+.Puhskinti2{
+  width: 100vw;
+  /* background-color: none; */
+  padding: 33vh 0;
+  background-image: url(../img/puhskinti.jpg);
+  background-size: 100%;
+  text-transform: lowercase;
+  /* background-position: 0 -200px; */
+  /* text-transform: lowercase; */
+}
+
+.number1,.number2,.number3,.number4,.number5{}
+
+h1{
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  /* color: green; */
+  margin:0;
+}
