@@ -13,7 +13,7 @@ $(document).ready(function(){
   'http://www.youtube.com/embed/zN91WQzqQYc',
   'http://www.youtube.com/embed/8kaW5xJ8WlI'
   ];
-
+  
   randomVideo();
 
   function randomVideo() {
