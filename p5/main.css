@@ -6,7 +6,7 @@
 }
 
 #bgimg{
-  /* background: url(bg.jpg); */
+  background: url(bg.jpg);
   background-size: 100%;
   background-position: 0 0;
   width: 100%;
