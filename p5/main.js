@@ -34,7 +34,9 @@ $(document).ready(function(){
   'https://www.youtube.com/embed/3WtVidplrHw', //Maria (XV)
   'https://www.youtube.com/embed/eMl3t0grrRA', //Kirika (XV)
   'https://www.youtube.com/embed/Vgf0hUWt_ng', //Shirabe(XV)
-  'https://www.youtube.com/embed/QwY1VuT-sgc' //Tsubasa (AXZ)
+  'https://www.youtube.com/embed/QwY1VuT-sgc', //Tsubasa (AXZ)
+  'https://www.youtube.com/embed/9f2djy1OIdk', //Lasting Song (XV)
+
   // 'https://www.facebook.com/1752382674993643/videos/1753891924842718/', //Tsubasa vs Pharah
   ];
 
