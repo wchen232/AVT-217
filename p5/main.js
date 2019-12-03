@@ -2,7 +2,6 @@ $(document).ready(function(){
   console.log("Document is ready");
 
   var links = [
-  'https://www.youtube.com/embed/P5l2wBEWNKc', //Metanoia (XV)
   'https://streamable.com/s/crn28/mgdvrl',  //Exterminate (GX)
   'https://streamable.com/s/qm82/fmewbh',   //Space Shuttle Scene (GX)
   'https://streamable.com/s/gr15u/eoqmeu',  //Phoenix Flamme (G)
@@ -27,6 +26,7 @@ $(document).ready(function(){
   'https://www.youtube.com/embed/Vgf0hUWt_ng',  //Shirabe(XV)
   'https://www.youtube.com/embed/QwY1VuT-sgc',  //Tsubasa (AXZ)
   'https://www.youtube.com/embed/9f2djy1OIdk',  //Lasting Song (XV)
+  'https://www.youtube.com/embed/P5l2wBEWNKc',  //Metanoia (XV)
   'https://streamable.com/s/qm82/fmewbh',
   'https://streamable.com/s/qm82/fmewbh',
   'https://streamable.com/s/qm82/fmewbh'
