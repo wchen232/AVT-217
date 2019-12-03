@@ -2,15 +2,6 @@ $(document).ready(function(){
   console.log("Document is ready");
 
   var links = [
-  // 'https://www.youtube.com/embed/hLym7dcWw68',
-  // 'https://www.youtube.com/embed/ys099qG3HVY',
-  // 'https://www.youtube.com/embed/92wik18z78Y',
-  // 'https://www.youtube.com/embed/O2yRtgaldgg',
-  // 'https://www.youtube.com/embed/W8gaZvgO9ac',
-  // 'https://www.youtube.com/embed/JBSbyOzun0Y',
-  // 'https://www.youtube.com/embed/9EocrqxkvDk',
-  // 'https://www.youtube.com/embed/zN91WQzqQYc',
-  // 'https://www.youtube.com/embed/8kaW5xJ8WlI',
   'https://www.youtube.com/embed/P5l2wBEWNKc', //Metanoia (XV)
   'https://streamable.com/s/crn28/mgdvrl', //Exterminate (GX)
   'https://streamable.com/s/qm82/fmewbh', //Space Shuttle Scene (GX)
@@ -35,9 +26,18 @@ $(document).ready(function(){
   'https://www.youtube.com/embed/eMl3t0grrRA', //Kirika (XV)
   'https://www.youtube.com/embed/Vgf0hUWt_ng', //Shirabe(XV)
   'https://www.youtube.com/embed/QwY1VuT-sgc', //Tsubasa (AXZ)
-  'https://www.youtube.com/embed/9f2djy1OIdk', //Lasting Song (XV)
-
-  // 'https://www.facebook.com/1752382674993643/videos/1753891924842718/', //Tsubasa vs Pharah
+  'https://www.youtube.com/embed/9f2djy1OIdk' //Lasting Song (XV)
+  // 'https://www.facebook.com/1752382674993643/videos/1753891924842718/', //Tsubasa vs Phara (GX)
+  // A bunch of XV Clips (may contain spoilers)
+  // 'https://www.youtube.com/embed/hLym7dcWw68',
+  // 'https://www.youtube.com/embed/ys099qG3HVY',
+  // 'https://www.youtube.com/embed/92wik18z78Y',
+  // 'https://www.youtube.com/embed/O2yRtgaldgg',
+  // 'https://www.youtube.com/embed/W8gaZvgO9ac',
+  // 'https://www.youtube.com/embed/JBSbyOzun0Y',
+  // 'https://www.youtube.com/embed/9EocrqxkvDk',
+  // 'https://www.youtube.com/embed/zN91WQzqQYc',
+  // 'https://www.youtube.com/embed/8kaW5xJ8WlI',
   ];
 
   randomVideo();
