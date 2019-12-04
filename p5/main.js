@@ -20,13 +20,12 @@ $(document).ready(function(){
   'https://streamable.com/s/3vwgo/dnpsir',  //Chris Transforms (G)
   'https://streamable.com/s/9palx/ituxsq',  //Tsubasa (XV)
   'https://streamable.com/s/wqd7h/wgloef',  //Hibiki (G)
-  'https://www.youtube.com/embed/qMJKzp6CkvA',  //Chris (XV)
-  'https://www.youtube.com/embed/3WtVidplrHw',  //Maria (XV)
-  'https://www.youtube.com/embed/eMl3t0grrRA',  //Kirika (XV)
-  'https://www.youtube.com/embed/Vgf0hUWt_ng',  //Shirabe(XV)
-  'https://www.youtube.com/embed/QwY1VuT-sgc',  //Tsubasa (AXZ)
-  'https://www.youtube.com/embed/9f2djy1OIdk',  //Lasting Song (XV)
-  'https://www.youtube.com/embed/P5l2wBEWNKc',  //Metanoia (XV)
+  'https://www.youtube.com/embed/qMJKzp6CkvA?rel=0;&autoplay=1',  //Chris (XV)
+  'https://www.youtube.com/embed/3WtVidplrHw?rel=0;&autoplay=1',  //Maria (XV)
+  'https://www.youtube.com/embed/eMl3t0grrRA?rel=0;&autoplay=1',  //Kirika (XV)
+  'https://www.youtube.com/embed/Vgf0hUWt_ng?rel=0;&autoplay=1',  //Shirabe(XV)
+  'https://www.youtube.com/embed/9f2djy1OIdk?rel=0;&autoplay=1',  //Lasting Song (XV)
+  'https://www.youtube.com/embed/P5l2wBEWNKc?rel=0;&autoplay=1',  //Metanoia (XV)
   'https://streamable.com/s/qm82/fmewbh',
   'https://streamable.com/s/qm82/fmewbh',
   'https://streamable.com/s/qm82/fmewbh'
