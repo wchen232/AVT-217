@@ -1,0 +1,30 @@
+#img{
+  background: url(../img/Collection_1440.png) no-repeat center;
+  /* background-size: 100%; */
+  height: 2493px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1439px){
+  #img{
+    background: url(../img/Collection_1024.png) no-repeat center;
+    /* background-size: 100%; */
+    height: 2097px;
+  }
+}
+
+@media only screen and (max-width: 1023px){
+  #img{
+    background: url(../img/Collection_768.png) no-repeat center;
+    /* background-size: 100%; */
+    height: 2205px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  #img{
+    background: url(../img/Collection_320.png) no-repeat center;
+    /* background-size: 100%; */
+    height: 925px;
+  }
+}
